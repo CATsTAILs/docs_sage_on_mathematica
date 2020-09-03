@@ -35,11 +35,13 @@ const plugins = [
         },
         {
           resolve: `gatsby-remark-katex`
-        },
+        }
       ],
       plugins: [
         `gatsby-remark-katex`
       ],
+      // remarkPlugins: [require(`remark-math`)],
+      // rehypePlugins: [require(`rehype-katex`)],
       extensions: [".mdx", ".md"]
     }
   },
