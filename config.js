@@ -30,7 +30,7 @@ const config = {
     social: '',
     links: [{ text: '', link: '' }],
     search: {
-      enabled: false,
+      enabled: true,
       indexName: '',
       algoliaAppId: process.env.GATSBY_ALGOLIA_APP_ID,
       algoliaSearchKey: process.env.GATSBY_ALGOLIA_SEARCH_KEY,
@@ -39,15 +39,22 @@ const config = {
   },
   sidebar: {
     forcedNavOrder: [
+      '/index',
       '/introduction', // add trailing slash if enabled above
-      '/codeblock',
+      // '/codeblock',
+      '/subsection',
+      '/codeblock'
     ],
     collapsedNav: [
-      '/codeblock', // add trailing slash if enabled above
+      // '/codeblock', // add trailing slash if enabled above
+      '/subsection'
     ],
-    links: [{ text: 'Hasura', link: 'https://hasura.io' }],
+    links: [
+      { text: "Seonhwa Kim's page", link: 'https://seonhwa17kim.netlify.app/' },
+      { text: 'Github page', link: 'https://github.com/CATsTAILs/docs_sage_on_mathematica/' }
+    ],
     frontline: false,
-    ignoreIndex: true,
+    ignoreIndex: false,
     title:
       "<a href='https://seonhwa17kim.netlify.app'>Seonhwa</a><div class='greenCircle'></div><a href='https://seonhwa17kim.netlify.app'>Kim</a>",
   },
