@@ -1,5 +1,9 @@
-# gatsby-gitbook-starter
+# Sage On Mathematica powered by gatsby-gitbook-starter
 
+Install __npm__ packages first after you cloned this repository. The command would be called at the cloned folder.
+```bash
+npm install
+```
 Kick off your project with this starter to create a powerful/flexible docs/tutorial web apps.
 
 ![gatsby-gitbook-starter](https://graphql-engine-cdn.hasura.io/learn-hasura/gatsby-gitbook-starter/assets/documentation_app_blog.png)

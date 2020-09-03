@@ -31,9 +31,13 @@ gatsby new gatsby-gitbook-starter https://github.com/hasura/gatsby-gitbook-start
     }
   },
 ```
-3. Install corresponding plugins
+3. Add the following lines in _gatsby-browser.js_
+```js
+import "katex/dist/katex.min.css"
+```
+4. Install corresponding plugins
 ```bash
 npm install --save gatsby-remark-katex katex
 ```
-4. Enjoy :D
+5. Enjoy :D
 
